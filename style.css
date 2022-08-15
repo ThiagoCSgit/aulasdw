@@ -1,0 +1,32 @@
+body{
+    background-color: #ddd;
+    font-family: verdana, sans-serif;
+}
+section{
+    color: rgb(48, 47, 47);
+}
+h2{
+    text-decoration: underline;
+}
+table{
+    background-color: #fff;
+    border: 2px solid red;
+}
+td, th{
+    border: 1px solid rgb(192, 72, 72);
+    text-align: center;
+}
+footer{
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.imagem{
+    text-align: center;
+}
+.imagem h1{
+    text-align: left;
+}
