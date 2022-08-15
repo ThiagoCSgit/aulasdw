@@ -1,32 +1,43 @@
-body{
-    background-color: #ddd;
-    font-family: verdana, sans-serif;
+body {
+  background-color: #ddd;
+  font-family: verdana, sans-serif;
 }
-section{
-    color: rgb(48, 47, 47);
+section {
+  color: rgb(48, 47, 47);
 }
-h2{
-    text-decoration: underline;
+h2 {
+  text-decoration: underline;
 }
-table{
-    background-color: #fff;
-    border: 2px solid red;
+table {
+  background-color: #fff;
+  border: 2px solid red;
 }
-td, th{
-    border: 1px solid rgb(192, 72, 72);
-    text-align: center;
+td,
+th {
+  border: 1px solid rgb(192, 72, 72);
+  text-align: center;
 }
-footer{
-    margin-top: 10px;
-}
-
-a{
-    text-decoration: none;
+footer {
+  margin-top: 10px;
 }
 
-.imagem{
-    text-align: center;
+a {
+  text-decoration: none;
+  transition: all 0.5us;
 }
-.imagem h1{
-    text-align: left;
+a:visited {
+  color: dodgerblue;
+}
+a:hover {
+  color: chartreuse;
+  position: relative;
+  left: 10px;
+  transition: all 0.5s ease-in;
+}
+
+.imagem {
+  text-align: center;
+}
+.imagem h1 {
+  text-align: left;
 }

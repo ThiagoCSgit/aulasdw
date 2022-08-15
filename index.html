@@ -1,114 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desenvolvimento Web</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="imagens.css" />
+    <style>
+      ul {
+        color: darkgreen;
+        list-style-type: square;
+      }
+    </style>
+  </head>
+  <body>
     <header>
-        <a id="topo"></a>
-        <h1>Desenvolvimento Web</h1>
-        <p>Fundamentos da linguagem HTML</p>
-        <a href="#fim">fim</a>
+      <a id="topo"></a>
+      <h1>Desenvolvimento Web</h1>
+      <p>Fundamentos da linguagem HTML</p>
+      <a href="#fim">fim</a>
     </header>
     <section>
-        <h2>Marcações de texto</h2>
-        Aqui um texto sem marcação.
-        Não aidanta dar Enter
-        <p>
-            parágrafo
-            <br>
-            <b>negrito</b>
-            <br>
-            <i>itálico</i>
-            <br>
-            <u>sublinhado</u>
-            <br>
-            <s>tachado</s>
-            <br>
-            texto <sup>Sobrescrito</sup>
-            <br>
-            texto <sub>Subescrito</sub>
-        </p>
+      <h2>Marcações de texto</h2>
+      Aqui um texto sem marcação. Não aidanta dar Enter
+      <p>
+        parágrafo
+        <br />
+        <b>negrito</b>
+        <br />
+        <i>itálico</i>
+        <br />
+        <u>sublinhado</u>
+        <br />
+        <s>tachado</s>
+        <br />
+        texto <sup>Sobrescrito</sup>
+        <br />
+        texto <sub>Subescrito</sub>
+      </p>
     </section>
     <section>
-        <h2>Listas</h2>
-        <h3>Listas não ordenadas</h3>
-        <ul>
-            <li>Item não ordenado</li>
-            <li>Item não ordenado</li>
-            <ul>
-                <li>Subitem</li>
-            </ul>
-            <ul>
-                <li>Subitem</li>
-            </ul>
-            <li>Item não ordenado</li>
+      <h2>Listas</h2>
+      <h3>Listas não ordenadas</h3>
+      <ul>
+        <li>Item não ordenado</li>
+        <li>Item não ordenado</li>
+        <ul style="list-style-type: georgian">
+          <li>Subitem</li>
         </ul>
-        <h3>Listas ordenadas</h3>
+        <ul>
+          <li>Subitem</li>
+        </ul>
+        <li>Item não ordenado</li>
+      </ul>
+      <h3>Listas ordenadas</h3>
+      <ol>
+        <li>Item ordenado</li>
+        <li>Item ordenado</li>
+        <ul>
+          <li>Subitem</li>
+        </ul>
         <ol>
-            <li>Item ordenado</li>
-            <li>Item ordenado</li>
-            <ul>
-                <li>Subitem</li>
-            </ul>
-            <ol>
-                <li>Subitem</li>
-            </ol>
-
-            <li>Item ordenado</li>
+          <li>Subitem</li>
         </ol>
-        <h3>Listas de definição</h3>
-        <dl>
-            <dt>manga</dt>
-            <dd>de camisa</dd>
-            <dd>fruta</dd>
-            <dd>separação de pasto</dd>
-            <br>
-            <dt>mandioca</dt>
-            <dt>aipim</dt>
-            <dt>macaxeira</dt>
-            <dd>raiz comestível</dd>
-        </dl>
+
+        <li>Item ordenado</li>
+      </ol>
+      <h3>Listas de definição</h3>
+      <dl>
+        <dt>manga</dt>
+        <dd>de camisa</dd>
+        <dd>fruta</dd>
+        <dd>separação de pasto</dd>
+        <br />
+        <dt>mandioca</dt>
+        <dt>aipim</dt>
+        <dt>macaxeira</dt>
+        <dd>raiz comestível</dd>
+      </dl>
     </section>
     <section class="imagem">
-        <h1>Imagens</h1>
-        <img src="https://mobimg.b-cdn.net/pic/v2/gallery/preview/pejzazh-priroda-raduga-46471.jpg" alt="Imagem bonita">
+      <h1>Imagens</h1>
+      <img
+        src="https://mobimg.b-cdn.net/pic/v2/gallery/preview/pejzazh-priroda-raduga-46471.jpg"
+        alt="Imagem bonita"
+      />
+    </section>
+    <section class="figuras">
+      <figure>
+        <figcaption>Figura 1</figcaption>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk2k4gqfeHxkSTJZaxnVdjLOMSaqW5kZsQug&usqp=CAU"
+          alt="simpsons"
+        />
+      </figure>
+      <figure>
+        <figcaption>Figura 2</figcaption>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdP86ld4cztMdMlKUIE1ayWv-EPCWmb-5XNw&usqp=CAU"
+          alt="simpsons"
+        />
+      </figure>
+      <figure>
+        <figcaption>Figura 3</figcaption>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm8ZVXelS4D_yzwl_EDyyJrbrlDKImzzJQww&usqp=CAU"
+          alt="mamaco dando like"
+        />
+      </figure>
     </section>
     <section>
-        <h2>Tabelas</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Nota</th>
-                    <th>Situação</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td rowspan="1">10</td>
-                    <td>Aprovado</td>
-                </tr>
-                <tr>
-                    <td colspan="1">5.5</td>
-                    <td>Reprovado</td>
-                </tr>
-            </tbody>
-        </table>
+      <h2>Tabelas</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Nota</th>
+            <th>Situação</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="1">10</td>
+            <td>Aprovado</td>
+          </tr>
+          <tr>
+            <td colspan="1">5.5</td>
+            <td>Reprovado</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
     <section>
-        <p>
-            <a href="forms.html">formulários</a>
-        </p>
+      <p>
+        <a href="forms.html">formulários</a>
+      </p>
     </section>
     <footer>
-        <p>
-            <a href="#topo">topo</a>
-            <a id="fim"></a>
-        </p>
+      <p>
+        <a href="#topo">topo</a>
+        <a id="fim"></a>
+      </p>
     </footer>
-</body>
+  </body>
 </html>
