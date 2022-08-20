@@ -10,7 +10,7 @@
     <style>
       ul {
         color: darkgreen;
-        list-style-type: square;
+        list-style-type: circle;
       }
       .nav {
         display: flex;
@@ -30,7 +30,6 @@
       <a id="topo"></a>
       <h1>Desenvolvimento Web</h1>
       <p>Fundamentos da linguagem HTML</p>
-      <a href="#fim">fim</a>
       <div class="nav">
         <ul>
           <li>Texto</li>
@@ -40,23 +39,21 @@
         </ul>
       </div>
     </header>
+    <a href="#fim">Fim da página</a>
     <section>
       <h2>Marcações de texto</h2>
       Aqui um texto sem marcação. Não aidanta dar Enter
       <p>
-        parágrafo
+        Este é parágrafo <b>cheio de marcações</b>
+        e tipos de fontes <i>diferentes do comum</i>,
+        com alguns textos mais<u>importantes do que outros.</u>
         <br />
-        <b>negrito</b>
+        <s>Essa marcação pode ser usada em algo que está ultrapassado.</s>
         <br />
-        <i>itálico</i>
+        Fórmulas: <br>
+        Equivalência entre matéria e energia: E = mc<sup>2</sup>
         <br />
-        <u>sublinhado</u>
-        <br />
-        <s>tachado</s>
-        <br />
-        texto <sup>Sobrescrito</sup>
-        <br />
-        texto <sub>Subescrito</sub>
+        Água: H<sub>2</sub>O
       </p>
     </section>
     <section>
@@ -86,18 +83,6 @@
 
         <li>Item ordenado</li>
       </ol>
-      <h3>Listas de definição</h3>
-      <dl>
-        <dt>manga</dt>
-        <dd>de camisa</dd>
-        <dd>fruta</dd>
-        <dd>separação de pasto</dd>
-        <br />
-        <dt>mandioca</dt>
-        <dt>aipim</dt>
-        <dt>macaxeira</dt>
-        <dd>raiz comestível</dd>
-      </dl>
     </section>
     <section class="imagem">
       <h1>Imagens</h1>
@@ -140,8 +125,8 @@
         </thead>
         <tbody>
           <tr>
-            <td rowspan="1">10</td>
-            <td>Aprovado</td>
+            <td style="border: 2px solid green;" rowspan="1">10</td>
+            <td style="border: 2px solid green;">Aprovado</td>
           </tr>
           <tr>
             <td colspan="1">5.5</td>
@@ -157,7 +142,7 @@
     </section>
     <footer>
       <p>
-        <a href="#topo">topo</a>
+        <a href="#topo">Topo da página</a>
         <a id="fim"></a>
       </p>
     </footer>

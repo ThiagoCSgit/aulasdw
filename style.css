@@ -23,7 +23,7 @@ footer {
 
 a {
   text-decoration: none;
-  transition: all 0.5us;
+  transition: all 0.2s;
 }
 a:visited {
   color: dodgerblue;
@@ -32,7 +32,7 @@ a:hover {
   color: chartreuse;
   position: relative;
   left: 10px;
-  transition: all 0.5s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .imagem {
